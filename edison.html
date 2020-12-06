@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Document</title>
     <style>
+        ol{
+            list-style: none;
+        }
         a{
             text-decoration: none;
         }
@@ -25,9 +28,24 @@
         #pic div:nth-child(2){
             font-size: 50;
         }
+        nav ol{
+            height: 30px;
+        }
+        nav ol li{
+            float: left;
+            margin-left:10px ;
+        }
     </style>
 </head>
 <body>
+    <h1>！我叫陈冠希！</h1>
+    <nav>
+        <ol>
+            <li><a href="#exp">演艺经历</a></li>
+            <li><a href="#life">个人生活</a></li>
+            <li><a href="#pic">照片</a></li>
+        </ol>
+    </nav>
     <section>
         <h1>
             陈冠希
@@ -37,7 +55,7 @@
         </p>
     </section>
     <section>
-        <h1>
+        <h1 id="exp">
             演艺经历
         </h1>
         <p>
@@ -57,7 +75,7 @@
         </p>
     </section>
     <section>
-        <h1>
+        <h1 id="life">
             个人生活
         </h1>
         <h2>
